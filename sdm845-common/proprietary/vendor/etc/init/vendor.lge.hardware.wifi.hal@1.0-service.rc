@@ -1,0 +1,4 @@
+service vendor.wifi-hal-1-0 /vendor/bin/hw/vendor.lge.hardware.wifi.hal@1.0-service
+    class hal
+    user root
+    group system wifi root
