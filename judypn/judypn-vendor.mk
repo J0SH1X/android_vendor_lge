@@ -115,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/judypn/proprietary/vendor/etc/sensors/registry/registry/sensors_settings:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/registry/sensors_settings \
     vendor/lge/judypn/proprietary/vendor/etc/sensors/registry/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/sns_reg_config \
     vendor/lge/judypn/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/lge/judypn/proprietary/vendor/etc/vintf/manifest/vendor.lge.hardware.biometrics.fingerprint@2.1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.lge.hardware.biometrics.fingerprint@2.1.xml \
     vendor/lge/judypn/proprietary/vendor/etc/wifi/GLOBAL/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/GLOBAL/bdwlan.bin \
     vendor/lge/judypn/proprietary/vendor/etc/wifi/GLOBAL/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/GLOBAL/bdwlan_ch0.bin \
     vendor/lge/judypn/proprietary/vendor/etc/wifi/GLOBAL/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/GLOBAL/bdwlan_ch1.bin \
@@ -586,4 +585,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON
+    HotwordEnrollmentXGoogleHEXAGON \
+    vendor.lge.hardware.biometrics.fingerprint@2.1
