@@ -1,0 +1,45 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK"],
+    "soc_id": ["291", "246", "305", "321", "336", "341", "339"]
+  },
+  "sns_lg_tof_wakeup_proximity": {
+    "owner": "sns_lg_tof_wakeup_proximity",
+    "inclination_queue_size": {"type": "int", "ver": "0",
+      "data": "6"
+    },
+    "prox_queue_size": {"type": "int", "ver": "0",
+      "data": "6"
+    },
+    "inclination_limit": {"type": "flt", "ver": "2",
+      "data": "1.0"
+    },
+    "tilt_limit": {"type": "flt", "ver": "0",
+      "data": "200.0"
+    },
+    "threshold_far_offset": {"type": "int", "ver": "0",
+      "data": "30"
+    },
+    "threshold_near_offset": {"type": "int", "ver": "0",
+      "data": "50"
+    },
+    "threshold_count_upper_limit": {"type": "int", "ver": "0",
+      "data": "100"
+    },
+    "threshold_count_lower_limit": {"type": "int", "ver": "0",
+      "data": "10"
+    },
+    "invalid_zone_offset": {"type": "int", "ver": "0",
+      "data": "70"
+    },
+    "orientation_limit": {"type": "int", "ver": "0",
+      "data": "120"
+    },
+    "variance_limit": {"type": "int", "ver": "0",
+      "data": "200"
+    },
+    "near_count": {"type": "int", "ver": "1",
+      "data": "1"
+    }
+  }
+}
