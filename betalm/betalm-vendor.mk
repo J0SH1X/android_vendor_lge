@@ -171,10 +171,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAutoContrast.so \
     vendor/lge/betalm/proprietary/vendor/lib/libCmcPdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCmcPdaf.so \
     vendor/lge/betalm/proprietary/vendor/lib/libCmcPdaf_tele.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCmcPdaf_tele.so \
+    vendor/lge/betalm/proprietary/vendor/lib/libFN3DPortrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFN3DPortrait.so \
+    vendor/lge/betalm/proprietary/vendor/lib/libFNCVCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVCore.so \
+    vendor/lge/betalm/proprietary/vendor/lib/libFNCVFD.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVFD.so \
+    vendor/lge/betalm/proprietary/vendor/lib/libFNCVFFD.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVFFD.so \
+    vendor/lge/betalm/proprietary/vendor/lib/libFNCVMeshGen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVMeshGen.so \
+    vendor/lge/betalm/proprietary/vendor/lib/libFNCVSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVSegmentation.so \
     vendor/lge/betalm/proprietary/vendor/lib/libSJVideoNR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSJVideoNR.so \
     vendor/lge/betalm/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
     vendor/lge/betalm/proprietary/vendor/lib/libSRIyuv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSRIyuv.so \
     vendor/lge/betalm/proprietary/vendor/lib/libarcsoft_depth_bokeh_img.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_depth_bokeh_img.so \
+    vendor/lge/betalm/proprietary/vendor/lib/libarcsoft_depth_bokeh_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_depth_bokeh_video.so \
     vendor/lge/betalm/proprietary/vendor/lib/libarcsoft_depthcam_portrait_lighting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_depthcam_portrait_lighting.so \
     vendor/lge/betalm/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
     vendor/lge/betalm/proprietary/vendor/lib/libarcsoft_dualcam_refocus_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_front.so \
@@ -194,8 +201,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib/libcinemaeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcinemaeffect.so \
     vendor/lge/betalm/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/lge/betalm/proprietary/vendor/lib/libdepthcomputation_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthcomputation_wrapper.so \
+    vendor/lge/betalm/proprietary/vendor/lib/libeepromcutter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeepromcutter.so \
     vendor/lge/betalm/proprietary/vendor/lib/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation.so \
     vendor/lge/betalm/proprietary/vendor/lib/libfilm_emulation_symphony.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation_symphony.so \
+    vendor/lge/betalm/proprietary/vendor/lib/libimagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimagerwrapper.so \
     vendor/lge/betalm/proprietary/vendor/lib/liblgae_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgae_main.so \
     vendor/lge/betalm/proprietary/vendor/lib/liblgawb_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgawb_main.so \
     vendor/lge/betalm/proprietary/vendor/lib/liblgdnnsnpe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgdnnsnpe.so \
@@ -366,10 +375,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib64/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAutoContrast.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libCmcPdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCmcPdaf.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libCmcPdaf_tele.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCmcPdaf_tele.so \
+    vendor/lge/betalm/proprietary/vendor/lib64/libFN3DPortrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFN3DPortrait.so \
+    vendor/lge/betalm/proprietary/vendor/lib64/libFNCVCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVCore.so \
+    vendor/lge/betalm/proprietary/vendor/lib64/libFNCVFD.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVFD.so \
+    vendor/lge/betalm/proprietary/vendor/lib64/libFNCVFFD.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVFFD.so \
+    vendor/lge/betalm/proprietary/vendor/lib64/libFNCVMeshGen.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVMeshGen.so \
+    vendor/lge/betalm/proprietary/vendor/lib64/libFNCVSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVSegmentation.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libSJVideoNR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSJVideoNR.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libSRIyuv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSRIyuv.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libarcsoft_depth_bokeh_img.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_depth_bokeh_img.so \
+    vendor/lge/betalm/proprietary/vendor/lib64/libarcsoft_depth_bokeh_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_depth_bokeh_video.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libarcsoft_depthcam_portrait_lighting.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_depthcam_portrait_lighting.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libarcsoft_dualcam_portraitlighting.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_portraitlighting.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus.so \
@@ -390,8 +406,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib64/libcinemaeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcinemaeffect.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libdepthcomputation_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdepthcomputation_wrapper.so \
+    vendor/lge/betalm/proprietary/vendor/lib64/libeepromcutter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeepromcutter.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfilm_emulation.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libfilm_emulation_symphony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfilm_emulation_symphony.so \
+    vendor/lge/betalm/proprietary/vendor/lib64/libimagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimagerwrapper.so \
     vendor/lge/betalm/proprietary/vendor/lib64/liblgae_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblgae_main.so \
     vendor/lge/betalm/proprietary/vendor/lib64/liblgawb_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblgawb_main.so \
     vendor/lge/betalm/proprietary/vendor/lib64/liblgdnnsnpe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblgdnnsnpe.so \
