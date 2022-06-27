@@ -21,5 +21,10 @@
      <capability key="fst.wigig.interface.channel" value="2"/>
      <capability key="sta.wowlan_triggers" value="any" />
      <capability key="sap.wowlan_triggers" value="any" />
+     <capability key="fst.tpoll.low.thresh.mbps" value="10" />
+     <capability key="fst.tpoll.high.thresh.mbps" value="40" />
+     <capability key="fst.config.sensitivity.level" value="1" />
+     <capability key="fst.config.entry.mcs" value="9" />
+     <capability key="fst.config.exit.mcs" value="3" />
    </namespace>
 </CapabilityStore>

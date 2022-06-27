@@ -11,6 +11,22 @@ service wigighalsvc /vendor/bin/wigighalsvc
     group wifi
     disabled
 
+# hostapd instance for WIGIG SoftAP
+#LGE_WIFI, Block to solve VTS issue (CAYMAN-5786)
+#service vendor.wigig_hostapd /vendor/bin/hw/hostapd -dd  -j wigighostapd -g /data/vendor/wifi/wigig_hostapd/global
+#    interface android.hardware.wifi.hostapd@1.0::IHostapd wigighostapd
+#    interface android.hardware.wifi.hostapd@1.1::IHostapd wigighostapd
+#    interface android.hardware.wifi.hostapd@1.2::IHostapd wigighostapd
+#    interface vendor.qti.hardware.wifi.hostapd@1.0::IHostapdVendor wigighostapd
+#    interface vendor.qti.hardware.wifi.hostapd@1.1::IHostapdVendor wigighostapd
+#    interface vendor.qti.hardware.wifi.hostapd@1.2::IHostapdVendor wigighostapd
+#    class late_start
+#    capabilities NET_ADMIN NET_RAW
+#    user wifi
+#    group wifi inet keystore
+#    oneshot
+#    disabled
+
 on property:vendor.wigig.driver=on
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -d /vendor/lib/modules wil6210 alt_ifname=1
     setprop vendor.wigig.driver.probed 1
@@ -43,4 +59,6 @@ on property:vendor.wigig.driver.probed=1
     chown system wifi /sys/class/net/wigig0/queues/rx-0/rps_cpus
     chmod 0660 /sys/class/net/wigig0/gro_flush_timeout
     chown system wifi /sys/class/net/wigig0/gro_flush_timeout
+    chmod 0660 /sys/class/net/wigig0/device/wil6210/fst_config
+    chown system wifi /sys/class/net/wigig0/device/wil6210/fst_config
 
